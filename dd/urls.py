@@ -20,5 +20,6 @@ from dd.views import *
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^hello', hello),
-    url(r'^$', main)
+    url(r'^$', main),
+    url('ls', ls)
 ]

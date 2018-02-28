@@ -7,3 +7,6 @@ def hello(request):
 
 def main(request):
     return HttpResponse('Main Page.')
+
+def ls(request):
+    return HttpResponse('ls')
