@@ -21,5 +21,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^hello', hello),
     url(r'^$', main),
-    url('ls', ls)
+    url('ls', ls),
+    url(r'^time', time)
 ]
